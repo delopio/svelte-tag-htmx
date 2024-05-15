@@ -74,6 +74,7 @@ export default function(opts){
       this.slotcount = Object.keys(slots).length
       props.$$slots = createSlots(slots)
       this.elem = new opts.component({	target: this._root,	props});
+      htmx.process(this._root)
     }
 
     disconnectedCallback(){
