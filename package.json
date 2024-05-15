@@ -1,5 +1,5 @@
 {
-  "name": "svelte-tag",
+  "name": "svelte-tag-htmx",
   "version": "1.0.2",
   "description": "webcomponent wrapper for svelte",
   "main": "index.js",
